@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.headerContainer {
+    background: #121212;
+    height: 2rem;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.headerText {
+    display: inline-block;
+    font-family: Poppins;
+    color: #FFFFFF !important;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 23% 0 2%;
+    max-height: 100%;
+    border: none !important;
+    text-decoration: none !important;
+}
+
+.headerText:active {
+    border: none;
+    text-decoration: none;
+
+}
+
+.headerSearchBar {
+    display: inline-block;
+    background: rgba(238, 238, 238, 0.05);
+    border-radius: 15px;
+    max-height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500px;
+    color: #FFFFFF !important;
+}
+
+.headerSearchBar:focus {
+    border: none;
+    outline: none;
+}
+
+.MuiInputBase-root {
+    color: white !important;
+}
+
+.MuiInput-underline:after {
+    border: none !important;
+}
+
+.adminPanel {
+    margin-left: 1%;
+    display: inline-block;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: small;
+    color: white;
+    cursor: pointer;
+}
+
+.loginButton {
+    margin-left: 2%;
+    display: inline-block;
+    color: white;
+}
+
+.accountAddress {
+    margin-left: 2%;
+    display: inline-block;
+    color: white;
+    width: 40px;
+    max-width: 40px;
+    margin-right: 2%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.loginBtn {
+    background-color: #0B632A;
+    border-radius: 12px;
+    padding: 0.5rem 1.5rem;
+}
+
+.MuiFormControl-root {
+    margin-top: 3px !important;
+    vertical-align: unset !important;
+}
+
+.formContainer {
+    display: inline-block !important;
+    width: 45%;
+    margin: 0 !important;
+    padding: 0 !important;
+}

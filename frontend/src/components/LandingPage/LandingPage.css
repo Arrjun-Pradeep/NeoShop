@@ -1,0 +1,28 @@
+.landingPage {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.landingPageImage {
+    width: 80%;
+    display: inline-block;
+    margin: 0 10%;
+    height: 240px;
+    background-size: cover;
+}
+
+.subCategoryList {
+    margin: 1rem 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.subCName {
+    font-family: Poppins;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}

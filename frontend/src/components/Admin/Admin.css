@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,700&display=swap');
+
+.productAddContainer {
+    margin: 3rem 4rem;
+}
+
+.productAddText {
+    font-family: Poppins;
+    font-weight: 500;
+    color: white;
+}
+
+.productAddForm {
+    color: white !important;
+    margin: 0 5rem;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 15px ;
+}
+
+.MuiFormLabel-root {
+    color: white !important;
+}
+
+.adminContainerBody {
+    background-color: brown;
+}
